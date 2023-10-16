@@ -1,4 +1,4 @@
-# EEG Data Analysis Project
+# EEG Data Analysis for Alcoholism
 
 ## About the Dataset
 
