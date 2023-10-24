@@ -29,7 +29,7 @@ In our EEG Data Analysis for Alcoholism project, we employ techniques to gain pr
 
 ### Key Analysis
 
-#### Visualize Filtered EEG Sensor Data (graph_wave function)
+#### Visualize Filtered EEG Sensor Data 
 This function serves as a pivotal tool for visualizing EEG sensor data. By applying dynamic filters such as matching conditions, subject names, identifiers, and trial numbers, it extracts targeted data from the input DataFrame. The function then generates individual subplots, each representing a unique sensor position. This visual representation offers a clear insight into EEG sensor values, enhancing our understanding of brain activity under diverse circumstances.
 
 <div align="center">
@@ -37,7 +37,7 @@ This function serves as a pivotal tool for visualizing EEG sensor data. By apply
 </div>
 
 
-#### Rank Significant Differences in Sensor Data (identify_significant_differences function)
+#### Rank Significant Differences in Sensor Data 
 This function plays a vital role in identifying significant differences in firing patterns between alcoholic and control groups. By conducting Mann-Whitney U tests for each sensor position under various matching conditions, it ranks the results based on p-values. The visualization aspect highlights sensors exhibiting substantial disparities in activity between the two groups. This in-depth analysis provides critical information about brain regions associated with alcoholism.
 
 <div align="center">
@@ -45,10 +45,10 @@ This function plays a vital role in identifying significant differences in firin
 </div>
 
 
-#### Correlation per Sensor Pair for Matching Condition (calculate_correlations function)
+#### Correlation per Sensor Pair for Matching Condition 
 In this function, we explore correlated activity between different brain regions when exposed to specific stimuli. By calculating correlations between sensor positions and implementing a correlation threshold, the function identifies regions that exhibit synchronized responses to particular stimuli. This analysis sheds light on the interconnectedness of brain areas, offering valuable insights into neural responses under varying conditions.
 
-#### Top N Correlations Visualization (visualize_top_correlations function)
+#### Top N Correlations Visualization 
 This function focuses on unveiling the strongest positive and negative correlations between pairs of EEG sensors. By visualizing these correlations for specific subject identifiers ('a' or 'c'), it provides a detailed understanding of interrelated activities within different brain regions. This visualization aids in deciphering neural connectivity patterns, contributing significantly to our comprehension of the brain's functional networks.
 
 <div align="center">
@@ -61,7 +61,7 @@ This function focuses on unveiling the strongest positive and negative correlati
 
 
 
-#### Train and Evaluate Classifier (train_and_evaluate_classifier function)
+#### Train and Evaluate Classifier 
 An integral part of our project involves the application of machine learning techniques. This function preprocesses EEG sensor data, standardizes features, applies dimensionality reduction through PCA, and trains a Support Vector Machine (SVM) classifier. The classifier's performance is rigorously evaluated, and feature importance is assessed. Through this process, we identify crucial features contributing to subject classification under diverse matching conditions, enhancing our ability to discern patterns within EEG data.
 
 | S2 match | ACC = 63.44%   |  S1 obj        | ACC = 62.87%   |   S2 no match  | ACC = 64.69%   |
