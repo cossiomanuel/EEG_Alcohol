@@ -64,6 +64,38 @@ This function focuses on unveiling the strongest positive and negative correlati
 #### Train and Evaluate Classifier (train_and_evaluate_classifier function)
 An integral part of our project involves the application of machine learning techniques. This function preprocesses EEG sensor data, standardizes features, applies dimensionality reduction through PCA, and trains a Support Vector Machine (SVM) classifier. The classifier's performance is rigorously evaluated, and feature importance is assessed. Through this process, we identify crucial features contributing to subject classification under diverse matching conditions, enhancing our ability to discern patterns within EEG data.
 
+| S2 match | ACC = 63.44%   |  S1 obj        | ACC = 62.87%   |   S2 no match  | ACC = 64.69%   |
+|----------|----------------|----------------|----------------|----------------|----------------|
+| Sensor   | Importance     | Sensor         | Importance     | Sensor         | Importance     |
+| -------- | -------------- | -------------- | -------------- | -------------- | -------------- |
+| F5       | 0.8130         | C3             | 0.4434         | C4             | 0.7192         |
+| F2       | 0.6120         | C5             | 0.2502         | CP5            | 0.5276         |
+| CP3      | 0.3289         | CP5            | 0.1940         | F1             | 0.4628         |
+| CP6      | 0.2831         | C1             | 0.1612         | F2             | 0.4515         |
+| F3       | 0.2732         | CP1            | 0.1284         | C5             | 0.3881         |
+| C1       | 0.2371         | F4             | 0.1223         | CZ             | 0.3087         |
+| CZ       | 0.1619         | AF8            | 0.0458         | CP6            | 0.2863         |
+| AFZ      | 0.1512         | C4             | 0.0295         | C6             | 0.1804         |
+| AF1      | 0.0006         | AF1            | 0.0050         | C1             | 0.1136         |
+| F4       | -0.0194        | C6             | -0.0423        | AFZ            | 0.0913         |
+| AF2      | -0.0231        | F1             | -0.0810        | CP4            | 0.0826         |
+| AF8      | -0.0338        | AF2            | -0.1068        | C3             | 0.0820         |
+| AF7      | -0.0571        | CP2            | -0.1101        | AF7            | 0.0311         |
+| C2       | -0.1824        | CPZ            | -0.1183        | AF2            | -0.0174        |
+| C6       | -0.1840        | AF7            | -0.1215        | AF1            | -0.0331        |
+| C3       | -0.2666        | C2             | -0.1530        | F3             | -0.0616        |
+| C4       | -0.3200        | CP6            | -0.2109        | CP2            | -0.1238        |
+| CPZ      | -0.3203        | AFZ            | -0.2236        | AF8            | -0.1464        |
+| F1       | -0.3432        | F3             | -0.2575        | CPZ            | -0.2087        |
+| CP1      | -0.3681        | CP3            | -0.3386        | C2             | -0.2484        |
+| CP4      | -0.3835        | F2             | -0.4193        | CP1            | -0.3124        |
+| CP2      | -0.3981        | CZ             | -0.4565        | CP3            | -0.4327        |
+| C5       | -0.4629        | F5             | -0.4622        | F4             | -0.5520        |
+| CP5      | -0.5781        | CP4            | -0.6741        |                |                |
+
+
+
+
 For detailed usage instructions, examples, and a comprehensive exploration of our analyses, please refer to the accompanying Jupyter Notebook (analysis.ipynb). Our project not only advances the understanding of alcoholism-related brain activity but also demonstrates the power of data-driven insights in the realm of neuroscience.
 
 
