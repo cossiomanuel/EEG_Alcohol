@@ -100,7 +100,7 @@ For detailed usage instructions, examples, and a comprehensive exploration of ou
 
 ## File Descriptions
 
-- **`EEG_Alcohol.ipynb`**: Jupyter Notebook file containing the code for data analysis.
+- **`EEG_Alcohol.ipynb`**: Jupyter Notebook file containing the code for data analysis. [Link to Notebook](Notebook/EEG_Alcohol.ipynb).
 - **`LICENSE`**: Documentation outlining the licensing information for the project.
 - **`README.md`**: This file, providing an overview of the project, dataset information, and instructions.
 
