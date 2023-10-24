@@ -108,5 +108,5 @@ For detailed usage instructions, examples, and a comprehensive exploration of ou
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/eeg-data-analysis.git
-   cd eeg-data-analysis
+   https://github.com/cossiomanuel/EEG_Alcohol.git
+  
